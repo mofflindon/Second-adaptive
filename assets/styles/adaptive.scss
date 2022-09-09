@@ -1,0 +1,362 @@
+@media (max-width: 1800px) {
+    .wrapper {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    /*Header*/
+    .header {
+
+        &__heading {}
+
+        &__subtitle {}
+
+        &__title {}
+    }
+
+    .advantage {
+        flex-wrap: wrap !important;
+
+        &__block {}
+
+        &__image {
+            width: 300px !important;
+        }
+
+        &__description {}
+
+        &__image-blue {}
+
+        &__image-green {}
+
+        &__image-orange {}
+
+        &__image-purple {}
+    }
+
+    .burger-menu {}
+
+    .menu {
+
+        &__icon {}
+
+        &__item {}
+
+        &__list {}
+    }
+
+    /*About Us*/
+    .about-us {
+        justify-content: center !important;
+
+        .wrapper {}
+
+        .about-us__image {
+            img {}
+        }
+
+        .about-us__text {}
+
+        .about-us__title {}
+
+        .about-us__subtitle {}
+
+        .about-us__paragraph {}
+
+        .about-us__button-learn {}
+    }
+
+    /*We work*/
+    .we-work {
+        .wrapper {}
+
+        .we-work__text {}
+
+        .we-work__title {
+            font-size: clamp(2.313rem, -3.313rem + 9.09vw, 2.5rem) !important;
+        }
+
+        .we-work__paragraph {}
+
+        .we-work__characteristic {
+            .we-work__item-characteristic {
+                .we-work__characteristic-container {
+                    .we-work__characteristic-name {}
+
+                    .we-work__characteristic-percent {}
+                }
+
+                .we-work__characteristic-line {}
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+
+    /*Header*/
+    .advantage {
+        &__block {}
+
+        &__description {}
+
+        &__image {
+            width: clamp(15.625rem, 4.688rem + 22.73vw, 18.75rem) !important
+        }
+
+        &__image-blue {}
+
+        &__image-green {}
+
+        &__image-orange {}
+
+        &__image-purple {}
+    }
+
+    .burger-menu {}
+
+    .header {
+        &__advantage {}
+
+        &__heading {
+            margin-left: clamp(0rem, -5.031rem + 10.45vw, 1.438rem) !important
+        }
+
+        &__subtitle {}
+
+        &__title {
+            font-size: clamp(2.688rem, -5.406rem + 16.82vw, 5rem) !important;
+            line-height: clamp(3.75rem, -3.906rem + 15.91vw, 5.938rem) !important;
+        }
+    }
+
+    .menu {
+        &__icon {
+            margin-left: clamp(0rem, -5.031rem + 10.45vw, 1.438rem) !important;
+        }
+
+        &__item {}
+
+        &__list {}
+    }
+
+    /*About Us*/
+    .about-us {
+        .wrapper {
+            flex-direction: column !important;
+            align-items: center !important;
+        }
+
+        .about-us__image {
+            margin-left: 0 !important;
+
+            img {
+                width: clamp(15.625rem, 10.819rem + 24.03vw, 25.688rem) !important;
+                height: clamp(20.625rem, 14.655rem + 29.85vw, 33.125rem) !important;
+            }
+        }
+
+        .about-us__text {
+            margin-left: 0 !important;
+            margin-top: clamp(0rem, -2.687rem + 13.43vw, 5.625rem) !important;
+        }
+
+        .about-us__title {}
+
+        .about-us__subtitle {}
+
+        .about-us__paragraph {}
+
+        .about-us__button-learn {}
+    }
+
+    /*We work*/
+    .we-work {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .we-work__title {
+            margin-left: 0 !important;
+            font-size: 22px !important;
+            line-height: 25px !important;
+        }
+
+        .we-work__paragraph {
+            margin-left: 0 !important;
+        }
+
+        .we-work__characteristic {
+            margin-top: 0 !important;
+            margin-left: 0 !important;
+
+            .we-work__item-characteristic {
+                .we-work__characteristic-container {
+                    .we-work__characteristic-name {}
+
+                    .we-work__characteristic-percent {}
+                }
+
+                .we-work__characteristic-line {}
+            }
+        }
+    }
+
+    /*Be unique*/
+    .unique {
+        margin-top: 20px !important;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .unique__text {
+            margin-top: 20px;
+            margin-left: 0 !important;
+
+            .unique__title {}
+
+            .unique__subtitle {}
+
+            .unique__paragraph {}
+
+            .unique__button-learn {}
+        }
+
+        .unique__image {
+            margin-left: 0 !important;
+            margin-top: 30px;
+
+            img {}
+        }
+    }
+
+    /*Products*/
+    .product {
+        margin-top: 50px !important;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .product__image {
+                margin-left: 0px !important;
+
+                img {
+                    width: 410px;
+                    height: 530px;
+                }
+            }
+
+            .product__text {
+                margin-left: 0 !important;
+
+                .product__title {}
+
+                .product__subtitle {}
+
+                .product__paragraph {}
+
+                .product__button-learn {}
+            }
+        }
+    }
+
+    //*Companies*//
+    .company {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+    /*Footer*/
+    .footer__contact-list{
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+
+    .footer__advantage{
+        align-items: center !important;
+        margin-left: 0 !important;
+        .footer__advantage-block{
+            width: 280px !important;
+        }
+    }
+    form{
+        justify-content: center;
+        div:nth-child(1){
+            flex-direction: column;
+            gap: 15px !important;
+            input{
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .menu{
+        visibility: hidden;
+    }
+    .we-work__paragraph {
+        font-size: 11px !important;
+    }
+
+    .about-us__paragraph {
+        font-size: 11px !important;
+    }
+
+    .we-work__item-characteristic {
+        width: clamp(15.625rem, 10.958rem + 23.33vw, 22.188rem) !important;
+    }
+
+    .separator {
+        .wrapper {}
+
+        .separator__title {
+            margin-top: 250px !important;
+            font-size: clamp(2.375rem, 0.508rem + 9.33vw, 5rem) !important;
+            line-height: clamp(2.5rem, -0.389rem + 14.44vw, 6.563rem) !important;
+        }
+
+        .separator__subtitle {}
+    }
+
+    .unique__image {
+        img {
+            width: clamp(17.5rem, 10.938rem + 31.82vw, 26.25rem) !important;
+            height: clamp(17.5rem, 11.875rem + 27.27vw, 25rem) !important;
+        }
+    }
+
+    .product {
+        .product__image {
+            img {
+                width: 280px !important;
+                height: 350px !important;
+            }
+        }
+    }
+    .footer__list{
+        display: none !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .footer__title{
+        font-size: 40px !important;
+    }
+    form{
+        margin-left: 0 !important;
+    }
+    .footer__advantage{
+        flex-direction: column !important;
+    }
+}
